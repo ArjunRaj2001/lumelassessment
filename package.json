@@ -1,0 +1,31 @@
+{
+  "name": "lumelassessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node migration/DbCreation.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArjunRaj2001/lumelassessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArjunRaj2001/lumelassessment/issues"
+  },
+  "homepage": "https://github.com/ArjunRaj2001/lumelassessment#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0",
+    "nodemon": "^3.1.9"
+  }
+}
